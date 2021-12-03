@@ -38,5 +38,8 @@ a{
     display:flex;
     align-items:center;
     padding:0 12px;
+    img{
+        
+    }
 }
 `
