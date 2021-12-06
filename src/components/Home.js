@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import ImgSlider from "./ImgSlider";
+
 
 function Home() {
-  return <Container>
-
-Home
-  </Container>;
+  return(
+   <Container>
+<ImgSlider/>
+  </Container>
+  )
 }
 
 export default Home;
@@ -24,6 +27,7 @@ position:relative;
  left:0;
  right:0;
  bottom:0;
+ z-index:-1;
 
 
 }
