@@ -55,7 +55,7 @@ const SignUp = styled.div`
   font-weight: bold;
   padding: 18px 0;
   color: #f9f9f9;
-  border-radius: 4px;
+  border-radius: 4px; 
   text-align: center;
   font-size: 18px;
   cursor: pointer;
